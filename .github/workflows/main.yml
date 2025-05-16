@@ -9,4 +9,4 @@ jobs:
         run: echo "hello world"
       
       - name: print-secrets
-        run: echo "REPO_SECRET_KEY_1: ${{ secrets.REPO_SECRET_KEY_1 }}"
+        run: 'echo "REPO_SECRET_KEY_1: ${{ secrets.REPO_SECRET_KEY_1 }}"'
